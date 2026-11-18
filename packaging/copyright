@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nc-notify
+Upstream-Contact: Andrew
+
+Files: *
+Copyright: 2026 Andrew
+License: MIT
+ Автор программы: Qwen (AI-ассистент, Alibaba Group).
+ Идея, постановка задачи и тестирование: Andrew.
+ Полный текст лицензии MIT приведён в файле LICENSE.

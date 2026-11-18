@@ -1,0 +1,13 @@
+build/
+build-release/
+dist/
+icons/hicolor/
+*.o
+moc_*
+qrc_*
+Makefile
+.qmake.stash
+*.user
+*.deb
+*.deb.sha256
+__pycache__/

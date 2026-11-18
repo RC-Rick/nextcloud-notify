@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Nextcloud Notify
+Name[ru]=Nextcloud Notify
+GenericName=Calendar reminders
+GenericName[ru]=Напоминания календаря
+Comment=Nextcloud calendar and Deck reminders
+Comment[ru]=Напоминания о событиях Nextcloud и карточках Deck
+Exec=/usr/bin/nc-notify
+Icon=nc-notify
+Terminal=false
+Categories=Utility;Calendar;Office;
+Keywords=nextcloud;calendar;deck;reminder;caldav;
+StartupNotify=false

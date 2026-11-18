@@ -1,0 +1,36 @@
+.TH NC-NOTIFY 1 "2026-11-17" "nc-notify 1.0.1" "User Commands"
+.SH NAME
+nc-notify \- reminders for Nextcloud calendars and Deck cards
+.SH SYNOPSIS
+.B nc-notify
+.RI [ options ]
+.SH DESCRIPTION
+Tray application for Astra Linux (Fly) and other Qt5 desktops.
+It synchronises Nextcloud calendars over CalDAV and Deck cards over the Deck API,
+shows upcoming events and cards, and sends reminders through the desktop
+notification service (fly-notifications) and its own popup window.
+The application password is stored in the system keyring.
+.SH OPTIONS
+.TP
+.B \-\-minimized
+Start hidden in the system tray.
+.TP
+.B \-\-verbose
+Print informational messages to the terminal.
+.TP
+.B \-\-version
+Print version and exit.
+.TP
+.B \-\-curl\-info
+Print libcurl GSS-API/SPNEGO capabilities and exit (Kerberos diagnostics).
+.SH FILES
+.TP
+.I ~/.config/nc-notify/nc-notify.conf
+Settings (no passwords).
+.TP
+.I ~/.config/autostart/nc-notify.desktop
+Autostart entry, managed from the settings dialog.
+.SH NOTES
+Create an application password in Nextcloud: Settings \- Security \- Devices and sessions.
+.SH AUTHOR
+Andrew. Program author: Qwen (AI assistant, Alibaba Group).
